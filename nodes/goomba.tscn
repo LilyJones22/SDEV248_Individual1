@@ -16,4 +16,12 @@ texture = ExtResource("1_hy2i1")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_8smrv")
 
+[node name="WallCheck" type="RayCast2D" parent="."]
+position = Vector2(5.3333335, 0)
+target_position = Vector2(6.6666665, 0)
+
+[node name="GroundCheck" type="RayCast2D" parent="."]
+position = Vector2(4, 4.666667)
+target_position = Vector2(6.666667, 2.6666665)
+
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
