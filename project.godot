@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="M01-M02"
-run/main_scene="uid://p11hjakr84pt"
+run/main_scene="uid://d2w8ugtkd6gu"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
