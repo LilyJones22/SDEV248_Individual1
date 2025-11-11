@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://droms1yhlkwkx"]
+
+[ext_resource type="Texture2D" uid="uid://cc4xnpg1ct2et" path="res://Art/png/headquarters.png" id="1_clcbl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0iei2"]
+size = Vector2(320, 150)
+
+[node name="Headquarters" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -154.99998)
+scale = Vector2(5, 5)
+texture = ExtResource("1_clcbl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -70)
+shape = SubResource("RectangleShape2D_0iei2")

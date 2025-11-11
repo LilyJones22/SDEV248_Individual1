@@ -106,7 +106,6 @@ func _physics_process(delta):
 			collider.get_parent().on_player_hit()
 
 
-
 func _on_out_of_bounds_body_entered(body):
 	if body.is_in_group("player"):
 		body.take_damage()
